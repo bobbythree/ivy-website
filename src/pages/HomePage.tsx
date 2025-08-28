@@ -1,10 +1,9 @@
 import HomeHero from "../components/HomeHero"
-import bgImg from '../assets/ivy_cat.jpg'
 
 export default function HomePage() {
   return (
 
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex items-center justify-center w-[100%]">
       <HomeHero />
     </div>
 
