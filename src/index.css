@@ -20,3 +20,9 @@
   --font-londrina-sketch: 'LondrinaSketch', sans-serif;
   --font-londrina-solid-light: 'LondrinaSolidLight', sans-serif;
 }
+
+body {
+  background-image: linear-gradient(to top right, rgba(20, 83, 45, 0.7), rgba(22, 163, 74, 0.7), rgba(253, 224, 71, 0.7)), url('/src/assets/ivy_cat.jpg');
+  background-size: cover;
+  background-position: center;
+}

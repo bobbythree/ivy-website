@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div>This is the About Page!!!</div>
+    <div className="h-screen">This is the About Page!!!</div>
   )
 }
 
