@@ -1,15 +1,19 @@
-import { NavLink } from "react-router"
+import HomeHero from "../components/HomeHero"
+import bgImg from '../assets/ivy_cat.jpg'
 
 export default function HomePage() {
   return (
-    <>
-      <div className="text-5xl">this is the Home Page sucka!!!</div>
-      <nav className="flex gap-3">
-        <NavLink to='/about'>about</NavLink>
-        <NavLink to='/art'>art</NavLink>
-        <NavLink to='/music'>music</NavLink>
-      </nav>
-    </>
+
+    <div className="relative flex items-center justify-center h-screen bg-gradient-to-tr from-green-500 to-yellow-200">
+      <img
+        src={bgImg}
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover opacity-15"
+      />
+      <HomeHero />
+    </div>
+
+
   )
 }
 

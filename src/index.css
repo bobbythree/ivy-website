@@ -1,1 +1,22 @@
+@font-face {
+  font-family: 'LondrinaSketch';
+  src: url('/fonts/londria_fonts/LondrinaSketch-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LondrinaSolidLight';
+  src: url('/public/fonts/londria_fonts/LondrinaSolid-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 @import "tailwindcss";
+
+@theme {
+  --font-londrina-sketch: 'LondrinaSketch', sans-serif;
+  --font-londrina-solid-light: 'LondrinaSolidLight', sans-serif;
+}
