@@ -1,15 +1,15 @@
 import { NavLink } from "react-router"
+import bgImg from '../assets/ivy_cat.jpg'
 
 export default function HomePage() {
   return (
-    <>
-      <div className="text-5xl">this is the Home Page sucka!!!</div>
-      <nav className="flex gap-3">
-        <NavLink to='/about'>about</NavLink>
-        <NavLink to='/art'>art</NavLink>
-        <NavLink to='/music'>music</NavLink>
-      </nav>
-    </>
+    <div className="h-screen bg-cover bg-gradient-to-tr from-green-500 to-yellow-200"
+      style={{
+        backgroundImage: `url(${bgImg})`,
+        backgroundPosition: 'center 30%',
+      }}>
+
+    </div>
   )
 }
 
