@@ -1,6 +1,6 @@
 export default function MusicPage() {
   return (
-    <div></div>
+    <div>This is the Music Page!!!</div>
   )
 }
 
