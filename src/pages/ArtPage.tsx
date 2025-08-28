@@ -1,6 +1,6 @@
 export default function ArtPage() {
   return (
-    <div></div>
+    <div>This is the Art Page!!!</div>
   )
 }
 
