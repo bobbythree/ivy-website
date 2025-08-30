@@ -1,6 +1,6 @@
 export default function MusicPage() {
   return (
-    <div>This is the Music Page!!!</div>
+    <div className="h-screen flex justify-center text-5xl">This is the music Page!!!</div>
   )
 }
 

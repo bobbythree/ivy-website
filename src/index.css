@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'LondrinaSolidLight';
-  src: url('/public/fonts/londria_fonts/LondrinaSolid-Light.ttf') format('truetype');
+  src: url('/fonts/londria_fonts/LondrinaSolid-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -19,4 +19,10 @@
 @theme {
   --font-londrina-sketch: 'LondrinaSketch', sans-serif;
   --font-londrina-solid-light: 'LondrinaSolidLight', sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to top right, rgba(20, 83, 45, 0.9), rgba(22, 163, 74, 0.9), rgba(253, 224, 71, 0.9)), url('/src/assets/ivy_cat.jpg');
+  background-size: cover;
+  background-position: center;
 }
