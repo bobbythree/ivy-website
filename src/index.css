@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'LondrinaSolidLight';
-  src: url('/public/fonts/londria_fonts/LondrinaSolid-Light.ttf') format('truetype');
+  src: url('/fonts/londria_fonts/LondrinaSolid-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
